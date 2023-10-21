@@ -13,12 +13,21 @@
     python3 [file_name].py
     ```
 
-3. When running the `goodie.py` script, you'll need to enter data in the following format:
+3. When running the `goodie.py` script, just enter:
 
-    - Number of employees: Any integer between 0 and the total number of goodies.
-    - For each goodie:
-      - Goodie name: Type the name of the goodie.
-      - Price: Type an integer representing the price of the goodie.
+    ```
+    python3 goodie.py
+    ```
+
+    That is all.
+
+4. When running the `jobs.py` script, you'll need to enter data in the following format:
+
+    - Enter the number of Jobs: n as an interger between 0 and 10.
+    - For each job:
+      - Enter start date, end date and profit in that order.
+      - You will be guided by the script when running it.
+      - entering the jobs is a for loop of n jobs.
 
 # Sample Data for `jobs.py`
 
