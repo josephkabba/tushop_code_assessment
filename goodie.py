@@ -10,8 +10,6 @@ def calculate_goodies(lines: list[str]):
 
     # Read the number of employees (M) from the first line
     num_employees = int(lines[0].split(': ')[1])
-
-    # Initialize variables
     min_price_diff = float('inf')
     selected_indices = []
 
